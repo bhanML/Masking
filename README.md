@@ -1,2 +1,2 @@
 # Masking
-Masking: A New Perspective of Noisy Supervision
+Masking: A new perspective of noisy supervision
