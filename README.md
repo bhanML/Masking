@@ -27,7 +27,7 @@ You can switch the noisy dataset for cifar10_train_T.py, cifar10_train_varT.py a
 Example:
 
 (1) Due to the requirements of initialization about the noise transition, some codes must be executed in order.
-For example, you can execute the codes in the following codes,
+For example, you can execute the codes in the following order,
 
 python cifar10_train.py
 
