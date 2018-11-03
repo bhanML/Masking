@@ -30,14 +30,18 @@ Example:
 For example, you can execute the codes in the following codes,
 
 python cifar10_train.py
+
 python cifar10_train_T.py
+
 python cifar10_train_varT.py
+
 python cifar10_train_GANT.py
 
 (2) For evaluation, since the evaluation scripts are separated, you can first launch up the training script and then launch up the evaluation script in another terminal.
 For example,
 
 python cifar10_train.py --train_dir events/cifar10_train
+
 python cifar10_eval.py --checkpoint_dir events/cifar10_train --eval_dir events/cifar10_eval
 
 -----------------------------------------------------------------------------
