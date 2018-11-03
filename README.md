@@ -24,7 +24,8 @@ Datasets:
 You can switch the noisy dataset for cifar10_train_T.py, cifar10_train_varT.py and cifar10_train_GANT.py by setting the NOISE_TYPE parameter in cifar10_input.py
 
 -----------------------------------------------------------------------------
-An example:
+Example:
+
 (1) Due to the requirements of initialization about the noise transition, some codes must be executed in order.
 For example, you can execute the codes in the following codes,
 
@@ -36,8 +37,10 @@ python cifar10_train_GANT.py
 (2) For evaluation, since the evaluation scripts are separated, you can first launch up the training script and then launch up the evaluation script in another terminal.
 For example,
 
-python cifar10_train.py
-python cifar10_eval.py
+python cifar10_train.py --train_dir events/cifar10_train
+python cifar10_eval.py --checkpoint_dir events/cifar10_train --eval_dir events/cifar10_eval
 
+-----------------------------------------------------------------------------
+These codes are forked from the Tensorflow official CIFARnet in https://github.com/tensorflow/models/tree/master/tutorials/image/cifar10.
 
 Contact: Jiangchao Yao (sunarker@sjtu.edu.cn); Bo Han (bo.han@riken.jp).
