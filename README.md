@@ -1,4 +1,4 @@
 # Masking
-NIPS'18: Masking: A New Perspective of Noisy Supervision
+NIPS'18: Masking: A New Perspective of Noisy Supervision (Tensorflow implementation).
 
-Tensorflow implementation will be released soon.
+Instructions will come soon.
