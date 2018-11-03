@@ -37,8 +37,7 @@ NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 10000
 
 # noisy proportion
 #NOISE_TYPE = 'tridiagonal'
-#NOISE_TYPE = 'column'
-NOISE_TYPE = 'specification'
+NOISE_TYPE = 'column'
 
 def read_cifar10(filename_queue):
   """Reads and parses examples from CIFAR10 data files.
