@@ -227,7 +227,8 @@ def noisy_distorted_inputs(data_dir, batch_size, return_T_flag):
   elif NOISE_TYPE == 'column':
     T = noise.gen_noise_column()
   else:
-    T = noise.gen_noise_specification(noise.ratio)
+    raise ValueError("NOISE TYPE is not properly set")
+    
   T_zero_mask = np.ones((10,10))
   T_zero_mask[np.equal(T,0)] = 0.0
 
