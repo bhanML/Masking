@@ -3,12 +3,12 @@ NeurIPS'18: Masking: A New Perspective of Noisy Supervision (Tensorflow implemen
 
 This is the code for the paper:
 [Masking: A New Perspective of Noisy Supervision](https://arxiv.org/abs/1805.08193)  
-Bo Han, Jiangchao Yao, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama  
+Bo Han*, Jiangchao Yao*, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama  
 To be presented at [NeurIPS 2018](https://nips.cc/Conferences/2018/).  
 
 If you find this code useful in your research then please cite  
 ```bash
-@inproceedings{Han2018CoteachingRT,
+@inproceedings{han2018masking,
   title={Masking: A New Perspective of Noisy Supervision},
   author={Bo Han, Jiangchao Yao, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama},
   booktitle={NeurIPS},
