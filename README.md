@@ -1,24 +1,20 @@
 # Masking
 NeurIPS'18: Masking: A New Perspective of Noisy Supervision (Tensorflow implementation).
 
-========
-
 This is the code for the paper:
-[Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels](https://arxiv.org/abs/1804.06872)  
-Bo Han, Quanming Yao, Xingrui Yu, Gang Niu, Miao Xu, Weihua Hu, Ivor Tsang, Masashi Sugiyama  
+[Masking: A New Perspective of Noisy Supervision](https://arxiv.org/abs/1805.08193)  
+Bo Han, Jiangchao Yao, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama  
 To be presented at [NeurIPS 2018](https://nips.cc/Conferences/2018/).  
 
 If you find this code useful in your research then please cite  
 ```bash
 @inproceedings{Han2018CoteachingRT,
-  title={Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels},
-  author={Bo Han and Quanming Yao and Xingrui Yu and Gang Niu and Miao Xu and Weihua Hu and Ivor W. Tsang and Masashi Sugiyama},
+  title={Masking: A New Perspective of Noisy Supervision},
+  author={Bo Han, Jiangchao Yao, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama},
   booktitle={NeurIPS},
   year={2018}
 }
 ``` 
-
-========
 
 Introduction about the codes
 
