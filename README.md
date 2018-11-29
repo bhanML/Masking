@@ -9,12 +9,13 @@ To be presented at [NeurIPS 2018](https://nips.cc/Conferences/2018/).
 If you find this code useful in your research then please cite  
 ```bash
 @inproceedings{han2018masking,
-  title={Masking: A New Perspective of Noisy Supervision},
-  author={Bo Han, Jiangchao Yao, Gang Niu, Mingyuan Zhou, Ivor Tsang, Ya Zhang, Masashi Sugiyama},
+  title={Masking: A new perspective of noisy supervision},
+  author={Han, Bo and Yao, Jiangchao and Gang, Niu and Zhou, Mingyuan and Tsang, Ivor and Zhang, Ya and Sugiyama, Masashi},
   booktitle={NeurIPS},
+  pages = {5839--5849},
   year={2018}
 }
-``` 
+```
 
 Introduction about the codes
 
